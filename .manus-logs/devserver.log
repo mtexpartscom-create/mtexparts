@@ -1,0 +1,28 @@
+[2026-03-27T21:52:21.796Z] Starting dev server with command: pnpm run dev
+[2026-03-27T21:52:22.183Z] 
+[2026-03-27T21:52:22.184Z] > mtexparts@1.0.0 dev /home/ubuntu/mtexparts
+[2026-03-27T21:52:22.184Z] > vite
+[2026-03-27T21:52:22.184Z] 
+[2026-03-27T21:52:22.728Z] 
+[2026-03-27T21:52:22.729Z] VITE v4.5.14  ready in 500 ms
+[2026-03-27T21:52:22.729Z] 
+[2026-03-27T21:52:22.730Z] ➜  Local:   http://localhost:3000/
+[2026-03-27T21:52:22.731Z] ➜  Network: http://169.254.0.21:3000/
+[2026-03-27T21:53:28.171Z] 5:53:28 PM [vite] page reload index.html
+[2026-03-27T21:53:46.602Z] 5:53:46 PM [vite] page reload index.html
+[2026-03-27T21:53:59.601Z] 5:53:59 PM [vite] page reload index.html
+[2026-03-27T21:54:03.369Z] 5:54:03 PM [vite] page reload index.html
+[2026-03-27T21:54:35.843Z] 5:54:35 PM [vite] page reload index.html
+[2026-03-27T21:54:40.169Z] 5:54:40 PM [vite] page reload index.html
+[2026-03-27T21:56:02.029Z] 5:56:02 PM [vite] page reload dist/index.html
+[2026-03-27T21:56:04.934Z] failed to load config from /home/ubuntu/mtexparts/vite.config.ts
+[2026-03-27T21:56:04.935Z] 5:56:04 PM [vite] Cannot find package '@builder.io/vite-plugin-jsx-loc' imported from /home/ubuntu/mtexparts/vite.config.ts.timestamp-1774648564925-88c8f265af84d.mjs
+[2026-03-27T21:56:04.935Z] 5:56:04 PM [vite] server restart failed
+[2026-03-27T21:56:05.672Z] 5:56:05 PM [vite] changed tsconfig file detected: /home/ubuntu/mtexparts/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2026-03-27T21:56:05.673Z] 5:56:05 PM [vite] vite.config.js changed, restarting server...
+[2026-03-27T21:56:05.679Z] 5:56:05 PM [vite] page reload src/admin.js
+[2026-03-27T21:56:05.680Z] 5:56:05 PM [vite] page reload src/main.js
+[2026-03-27T21:56:05.680Z] 5:56:05 PM [vite] page reload src/script.js
+[2026-03-27T21:56:05.683Z] 5:56:05 PM [vite] hmr update /src/styles/admin.css?direct
+[2026-03-27T21:56:05.684Z] 5:56:05 PM [vite] hmr update /src/styles/main.css, /src/styles/main.css?direct
+[2026-03-27T21:56:05.703Z] 5:56:05 PM [vite] server restarted.

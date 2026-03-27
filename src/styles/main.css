@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-dark: #0f0f0f;
+    --secondary-dark: #1a1a1a;
+    --tertiary-dark: #2a2a2a;
+    --accent-red: #dc2626;
+    --accent-blue: #2563eb;
+    --text-light: #ffffff;
+    --text-gray: #d1d5db;
+    --border-color: #404040;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: var(--primary-dark);
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* ХЕДЪР */
+header {
+    background-color: var(--secondary-dark);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--accent-red);
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav a {
+    color: var(--text-light);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--accent-red);
+}
+
+.header-phone {
+    color: var(--accent-red);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* БАНЕР */
+.hero {
+    background: linear-gradient(135deg, rgba(0,0,0,0.8), rgba(220,38,38,0.2)), 
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%231a1a1a" width="1200" height="600"/></svg>');
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 2rem;
+    text-align: center;
+    color: var(--text-light);
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent-red);
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: var(--text-gray);
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: var(--accent-red);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #991b1b;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: var(--accent-blue);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.btn-outline {
+    border: 2px solid var(--accent-red);
+    color: var(--accent-red);
+    background-color: transparent;
+}
+
+.btn-outline:hover {
+    background-color: var(--accent-red);
+    color: white;
+}
+
+/* СЕКЦИИ */
+section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--accent-red);
+}
+
+section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+}
+
+.section-subtitle {
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+/* GRID LAYOUT */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: var(--secondary-dark);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    border-color: var(--accent-red);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(220, 38, 38, 0.2);
+}
+
+.card h4 {
+    color: var(--accent-red);
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: var(--text-gray);
+    margin-bottom: 1rem;
+}
+
+/* ФОРМИ */
+form {
+    background-color: var(--secondary-dark);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-light);
+    font-weight: 500;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--tertiary-dark);
+    border: 1px solid var(--border-color);
+    color: var(--text-light);
+    border-radius: 0.25rem;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: var(--accent-red);
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* ФУТЪР */
+footer {
+    background-color: var(--secondary-dark);
+    border-top: 1px solid var(--border-color);
+    padding: 3rem 2rem;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.footer-section h4 {
+    color: var(--accent-red);
+    margin-bottom: 1rem;
+}
+
+.footer-section p {
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+    color: var(--text-gray);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: var(--accent-red);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-gray);
+}
+
+/* АДМИН ПАНЕЛ */
+.admin-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--primary-dark);
+}
+
+.admin-sidebar {
+    width: 250px;
+    background-color: var(--secondary-dark);
+    border-right: 1px solid var(--border-color);
+    padding: 2rem 0;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.admin-sidebar nav ul {
+    flex-direction: column;
+    gap: 0;
+}
+
+.admin-sidebar nav a {
+    display: block;
+    padding: 1rem 2rem;
+    border-left: 3px solid transparent;
+    transition: all 0.3s;
+}
+
+.admin-sidebar nav a:hover,
+.admin-sidebar nav a.active {
+    border-left-color: var(--accent-red);
+    background-color: var(--tertiary-dark);
+    color: var(--accent-red);
+}
+
+.admin-main {
+    margin-left: 250px;
+    flex: 1;
+    padding: 2rem;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.admin-header h1 {
+    color: var(--accent-red);
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--secondary-dark);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.admin-table thead {
+    background-color: var(--tertiary-dark);
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.admin-table th {
+    color: var(--accent-red);
+    font-weight: bold;
+}
+
+.admin-table tr:hover {
+    background-color: var(--tertiary-dark);
+}
+
+.admin-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-small {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.btn-edit {
+    background-color: var(--accent-blue);
+}
+
+.btn-delete {
+    background-color: #7f1d1d;
+}
+
+/* МОБИЛНА ВЕРСИЯ */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .admin-sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .admin-sidebar nav ul {
+        flex-direction: row;
+        gap: 0;
+        overflow-x: auto;
+    }
+
+    .admin-main {
+        margin-left: 0;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* УТИЛИТИ */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid var(--border-color);
+    border-radius: 50%;
+    border-top-color: var(--accent-red);
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}

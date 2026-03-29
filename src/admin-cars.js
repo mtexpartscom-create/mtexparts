@@ -88,26 +88,37 @@ function hideAddCarForm() {
   document.getElementById('imagePreview').innerHTML = '';
 }
 
-// Preview car images
+// Preview car images with loading animation
 function previewCarImages(event) {
   const files = event.target.files;
   const preview = document.getElementById('imagePreview');
-  preview.innerHTML = '';
+  preview.innerHTML = '<div class="loading-text">Зареждане на снимки</div>';
   
-  Array.from(files).forEach(file => {
+  let loadedCount = 0;
+  
+  Array.from(files).forEach((file) => {
     const reader = new FileReader();
     reader.onload = (e) => {
+      loadedCount++;
+      
+      if (loadedCount === 1) {
+        preview.innerHTML = '';
+      }
+      
       const img = document.createElement('img');
       img.src = e.target.result;
       img.style.maxWidth = '100px';
       img.style.margin = '5px';
+      img.style.borderRadius = '8px';
+      img.style.border = '2px solid var(--bmw-blue)';
+      img.classList.add('fade-in-content');
       preview.appendChild(img);
     };
     reader.readAsDataURL(file);
   });
 }
 
-// Handle add car
+// Handle add car with loading animation
 function handleAddCar(event) {
   event.preventDefault();
   
@@ -117,6 +128,10 @@ function handleAddCar(event) {
   const type = document.getElementById('carType').value;
   const year = document.getElementById('carYear').value;
   const imagesInput = document.getElementById('carImages');
+  const submitBtn = event.target.querySelector('button[type="submit"]');
+  
+  submitBtn.classList.add('loading');
+  submitBtn.disabled = true;
   
   // Convert images to base64
   const images = [];
@@ -139,12 +154,13 @@ function handleAddCar(event) {
         carsData.push(newCar);
         localStorage.setItem('carsData', JSON.stringify(carsData));
         
-        // Update gallery
-        updateGallery();
-        
-        // Reset form
-        hideAddCarForm();
-        renderCarsAdmin();
+        setTimeout(() => {
+          updateGallery();
+          hideAddCarForm();
+          submitBtn.classList.remove('loading');
+          submitBtn.disabled = false;
+          renderCarsAdmin();
+        }, 500);
       }
     };
     reader.readAsDataURL(file);

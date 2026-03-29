@@ -49,22 +49,45 @@ filterBtns.forEach(btn => {
   });
 });
 
-// ---- Contact form handler ----
+// ---- Contact form handler with loading animation ----
 function handleSubmit(e) {
   e.preventDefault();
   const form = document.getElementById('contactForm');
   const success = document.getElementById('formSuccess');
-
-  // Simulate form submission
   const btn = form.querySelector('button[type="submit"]');
-  btn.textContent = 'Изпращане...';
+  
+  // Add loading state
+  btn.classList.add('loading');
   btn.disabled = true;
-
+  
+  // Simulate form submission
   setTimeout(() => {
+    btn.classList.remove('loading');
     form.style.display = 'none';
     success.style.display = 'block';
-  }, 1200);
+    
+    // Reset form after 3 seconds
+    setTimeout(() => {
+      form.style.display = 'block';
+      success.style.display = 'none';
+      form.reset();
+      btn.disabled = false;
+    }, 3000);
+  }, 1500);
 }
+
+// ---- Image loading animations ----
+const images = document.querySelectorAll('img[loading="lazy"]');
+images.forEach(img => {
+  img.addEventListener('load', () => {
+    img.classList.add('fade-in-content');
+  });
+  
+  // Add loading skeleton while image loads
+  if (!img.complete) {
+    img.parentElement.classList.add('loading-image');
+  }
+});
 
 // ---- Scroll animations ----
 const fadeEls = document.querySelectorAll(

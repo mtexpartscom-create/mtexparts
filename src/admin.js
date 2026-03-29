@@ -24,10 +24,18 @@ function saveAdminData() {
   localStorage.setItem('mtexparts_admin_data', JSON.stringify(adminState));
 }
 
-// Show admin section
+// Show admin section with loading animation
 function showAdminSection(section) {
   adminState.currentSection = section;
   const adminContent = document.getElementById('adminContent');
+  
+  // Show loading state
+  adminContent.innerHTML = `
+    <div class="admin-loading">
+      <div class="spinner"></div>
+      <span>Зареждане...</span>
+    </div>
+  `;
 
   // Update active button
   document.querySelectorAll('.admin-nav-btn').forEach(btn => {
@@ -35,17 +43,20 @@ function showAdminSection(section) {
   });
   event.target.classList.add('active');
 
-  switch (section) {
-    case 'cars':
-      renderCarsAdmin();
-      break;
-    case 'bookings':
-      renderBookingsAdmin();
-      break;
-    case 'inquiries':
-      renderInquiriesAdmin();
-      break;
-  }
+  // Simulate loading delay for better UX
+  setTimeout(() => {
+    switch (section) {
+      case 'cars':
+        renderCarsAdmin();
+        break;
+      case 'bookings':
+        renderBookingsAdmin();
+        break;
+      case 'inquiries':
+        renderInquiriesAdmin();
+        break;
+    }
+  }, 300);
 }
 
 // Render cars admin section

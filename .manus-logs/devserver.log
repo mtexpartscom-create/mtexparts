@@ -97,3 +97,18 @@
 [2026-03-29T14:05:11.777Z] 10:05:11 AM [vite] page reload index.html
 [2026-03-29T14:05:33.550Z] 10:05:33 AM [vite] page reload index.html
 [2026-03-29T14:05:49.560Z] 10:05:49 AM [vite] page reload dist/index.html
+[2026-03-29T14:11:10.766Z] Starting dev server with command: pnpm run dev
+[2026-03-29T14:11:11.156Z] 
+[2026-03-29T14:11:11.157Z] > mtexparts@1.0.0 dev /home/ubuntu/mtexparts
+[2026-03-29T14:11:11.157Z] > vite
+[2026-03-29T14:11:11.157Z] 
+[2026-03-29T14:11:11.585Z] 
+[2026-03-29T14:11:11.586Z] VITE v4.5.14  ready in 389 ms
+[2026-03-29T14:11:11.586Z] 
+[2026-03-29T14:11:11.586Z] ➜  Local:   http://localhost:3000/
+[2026-03-29T14:11:11.587Z] ➜  Network: http://169.254.0.21:3000/
+[2026-03-29T14:11:40.866Z] 10:11:40 AM [vite] page reload src/script.js
+[2026-03-29T14:11:48.342Z] 10:11:48 AM [vite] page reload src/admin.js
+[2026-03-29T14:12:06.567Z] 10:12:06 AM [vite] page reload src/admin-cars.js
+[2026-03-29T14:12:47.843Z] 10:12:47 AM [vite] page reload src/admin-cars.js
+[2026-03-29T14:13:10.941Z] 10:13:10 AM [vite] page reload dist/index.html

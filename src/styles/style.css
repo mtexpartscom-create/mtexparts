@@ -230,6 +230,15 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   border-radius: 2px;
   transition: var(--transition);
 }
+.nav-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(8px, 8px);
+}
+.nav-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
 
 /* ============================================================
    HERO
@@ -475,6 +484,17 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   transition: var(--transition);
 }
 .service-link:hover { color: var(--bmw-blue-light); }
+.service-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+.service-actions .btn {
+  flex: 1;
+  font-size: 0.85rem;
+  padding: 12px 16px;
+  justify-content: center;
+}
 
 /* ============================================================
    GALLERY / INVENTORY

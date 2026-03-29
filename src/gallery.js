@@ -31,7 +31,7 @@ function renderCarsGrid() {
 
     carCard.innerHTML = `
       <div class="car-img-wrap">
-        <img src="${car.main_image}" alt="${car.name}" loading="lazy" />
+        <img src="${car.images[0]?.url || 'placeholder.jpg'}" alt="${car.name}" loading="lazy" />
         <div class="car-overlay">
           <button class="car-overlay-btn" onclick="openLightbox(${index})">🖼️ Разгледай още (${imageCount} снимки)</button>
         </div>

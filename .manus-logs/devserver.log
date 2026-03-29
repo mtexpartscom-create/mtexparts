@@ -128,3 +128,782 @@
 [2026-03-29T16:30:02.004Z] 12:30:02 PM [vite] page reload index.html
 [2026-03-29T16:30:11.393Z] 12:30:11 PM [vite] hmr update /src/styles/style.css?direct
 [2026-03-29T16:30:32.541Z] 12:30:32 PM [vite] page reload dist/index.html
+[2026-03-29T18:46:33.574Z] 2:46:33 PM [vite] page reload index.html
+[2026-03-29T18:46:34.070Z] 2:46:34 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:34.072Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:34.072Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:34.073Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:34.073Z] 287|              <div class="car-header">
+[2026-03-29T18:46:34.073Z] |              ^
+[2026-03-29T18:46:34.073Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:34.074Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:34.075Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:34.075Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:34.075Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:34.076Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:34.076Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:34.077Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:34.077Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:34.078Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:34.078Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:34.078Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:34.079Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:34.988Z] 2:46:34 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:34.989Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:34.989Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:34.990Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:34.990Z] 287|              <div class="car-header">
+[2026-03-29T18:46:34.991Z] |              ^
+[2026-03-29T18:46:34.991Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:34.991Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:34.992Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:34.992Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:34.993Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:34.993Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:34.994Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:34.994Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:34.995Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:34.995Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:34.995Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:34.996Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:34.996Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:35.668Z] 2:46:35 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:35.670Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:35.670Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:35.671Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:35.671Z] 287|              <div class="car-header">
+[2026-03-29T18:46:35.672Z] |              ^
+[2026-03-29T18:46:35.672Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:35.672Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:35.673Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:35.673Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:35.674Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:35.674Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:35.674Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:35.675Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:35.675Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:35.676Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:35.676Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:35.677Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:35.677Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:36.663Z] 2:46:36 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:36.664Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:36.664Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:36.665Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:36.666Z] 287|              <div class="car-header">
+[2026-03-29T18:46:36.666Z] |              ^
+[2026-03-29T18:46:36.667Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:36.668Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:36.669Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:36.670Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:36.670Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:36.671Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:36.671Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:36.672Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:36.672Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:36.673Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:36.673Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:36.674Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:36.674Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:37.660Z] 2:46:37 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:37.661Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:37.661Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:37.661Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:37.661Z] 287|              <div class="car-header">
+[2026-03-29T18:46:37.662Z] |              ^
+[2026-03-29T18:46:37.663Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:37.663Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:37.664Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:37.664Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:37.664Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:37.665Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:37.665Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:37.665Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:37.665Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:37.666Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:37.666Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:37.666Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:37.667Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:38.203Z] 2:46:38 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:38.204Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:38.204Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:38.205Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:38.205Z] 287|              <div class="car-header">
+[2026-03-29T18:46:38.205Z] |              ^
+[2026-03-29T18:46:38.206Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:38.206Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:38.206Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:38.207Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:38.207Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:38.208Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:38.208Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:38.208Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:38.209Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:38.210Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:38.210Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:38.210Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:38.211Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:38.556Z] 2:46:38 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:38.557Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:38.557Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:38.558Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:38.558Z] 287|              <div class="car-header">
+[2026-03-29T18:46:38.558Z] |              ^
+[2026-03-29T18:46:38.558Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:38.559Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:38.560Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:38.560Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:38.560Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:38.561Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:38.561Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:38.561Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:38.562Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:38.562Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:38.563Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:38.563Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:38.563Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:39.497Z] 2:46:39 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:39.499Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:39.499Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:39.500Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:39.500Z] 287|              <div class="car-header">
+[2026-03-29T18:46:39.500Z] |              ^
+[2026-03-29T18:46:39.501Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:39.501Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:39.501Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:39.501Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:39.502Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:39.502Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:39.502Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:39.503Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:39.503Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:39.503Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:39.504Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:39.504Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:39.504Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:40.595Z] 2:46:40 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:40.597Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:40.597Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:40.598Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:40.598Z] 287|              <div class="car-header">
+[2026-03-29T18:46:40.598Z] |              ^
+[2026-03-29T18:46:40.599Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:40.599Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:40.599Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:40.600Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:40.600Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:40.600Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:40.600Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:40.601Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:40.601Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:40.601Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:40.602Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:40.602Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:40.602Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:41.693Z] 2:46:41 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:41.694Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:41.694Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:41.695Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:41.695Z] 287|              <div class="car-header">
+[2026-03-29T18:46:41.695Z] |              ^
+[2026-03-29T18:46:41.696Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:41.696Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:41.696Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:41.697Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:41.697Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:41.697Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:41.697Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:41.698Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:41.698Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:41.698Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:41.699Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:41.699Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:41.699Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:41.977Z] 2:46:41 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:41.978Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:41.978Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:41.978Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:41.979Z] 287|              <div class="car-header">
+[2026-03-29T18:46:41.979Z] |              ^
+[2026-03-29T18:46:41.980Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:41.980Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:41.980Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:41.981Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:41.981Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:41.981Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:41.981Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:41.982Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:41.982Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:41.982Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:41.983Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:41.983Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:41.983Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:42.390Z] 2:46:42 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:42.391Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:42.391Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:42.392Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:42.392Z] 287|              <div class="car-header">
+[2026-03-29T18:46:42.392Z] |              ^
+[2026-03-29T18:46:42.393Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:42.393Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:42.394Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:42.394Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:42.394Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:42.394Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:42.395Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:42.395Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:42.395Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:42.396Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:42.396Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:42.396Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:42.397Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:43.393Z] 2:46:43 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:43.394Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:43.395Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:43.395Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:43.395Z] 287|              <div class="car-header">
+[2026-03-29T18:46:43.395Z] |              ^
+[2026-03-29T18:46:43.396Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:43.396Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:43.396Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:43.397Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:43.397Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:43.398Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:43.398Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:43.398Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:43.399Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:43.399Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:43.399Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:43.399Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:43.400Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:44.410Z] 2:46:44 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:44.411Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:44.411Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:44.411Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:44.412Z] 287|              <div class="car-header">
+[2026-03-29T18:46:44.412Z] |              ^
+[2026-03-29T18:46:44.412Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:44.412Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:44.413Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:44.413Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:44.413Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:44.414Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:44.414Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:44.414Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:44.415Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:44.415Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:44.415Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:44.415Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:44.416Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:45.496Z] 2:46:45 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:45.497Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:45.498Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:45.498Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:45.498Z] 287|              <div class="car-header">
+[2026-03-29T18:46:45.498Z] |              ^
+[2026-03-29T18:46:45.499Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:45.499Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:45.499Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:45.500Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:45.500Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:45.500Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:45.501Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:45.501Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:45.501Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:45.501Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:45.502Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:45.502Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:45.502Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:45.724Z] 2:46:45 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:45.725Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:45.725Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:45.726Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:45.726Z] 287|              <div class="car-header">
+[2026-03-29T18:46:45.726Z] |              ^
+[2026-03-29T18:46:45.726Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:45.727Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:45.727Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:45.727Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:45.728Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:45.728Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:45.728Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:45.728Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:45.729Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:45.729Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:45.729Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:45.730Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:45.730Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:45.942Z] 2:46:45 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:45.943Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:45.944Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:45.944Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:45.944Z] 287|              <div class="car-header">
+[2026-03-29T18:46:45.944Z] |              ^
+[2026-03-29T18:46:45.945Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:45.945Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:45.945Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:45.946Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:45.946Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:45.946Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:45.946Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:45.947Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:45.947Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:45.947Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:45.948Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:45.948Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:45.948Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:46.985Z] 2:46:46 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:46.985Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:46.986Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:46.986Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:46.986Z] 287|              <div class="car-header">
+[2026-03-29T18:46:46.987Z] |              ^
+[2026-03-29T18:46:46.987Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:46.987Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:46.987Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:46.988Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:46.988Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:46.988Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:46.989Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:46.989Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:46.989Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:46.990Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:46.990Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:46.990Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:46.991Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:48.084Z] 2:46:48 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:48.084Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:48.085Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:48.085Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:48.085Z] 287|              <div class="car-header">
+[2026-03-29T18:46:48.086Z] |              ^
+[2026-03-29T18:46:48.086Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:48.087Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:48.087Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:48.087Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:48.088Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:48.088Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:48.089Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:48.089Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:48.089Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:48.089Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:48.090Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:48.090Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:48.090Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:49.195Z] 2:46:49 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:49.196Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:49.196Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:49.197Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:49.197Z] 287|              <div class="car-header">
+[2026-03-29T18:46:49.197Z] |              ^
+[2026-03-29T18:46:49.198Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:49.198Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:49.198Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:49.200Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:49.200Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:49.200Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:49.201Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:49.202Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:49.202Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:49.203Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:49.203Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:49.203Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:49.204Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:49.204Z] 2:46:49 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:49.204Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:49.205Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:49.205Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:49.206Z] 287|              <div class="car-header">
+[2026-03-29T18:46:49.206Z] |              ^
+[2026-03-29T18:46:49.206Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:49.206Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:49.207Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:49.207Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:49.207Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:49.208Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:49.208Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:49.209Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:49.209Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:49.209Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:49.210Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:49.210Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:49.211Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:49.419Z] 2:46:49 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:49.419Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:49.420Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:49.420Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:49.420Z] 287|              <div class="car-header">
+[2026-03-29T18:46:49.421Z] |              ^
+[2026-03-29T18:46:49.421Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:49.422Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:49.422Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:49.422Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:49.423Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:49.423Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:49.423Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:49.424Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:49.424Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:49.424Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:49.425Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:49.425Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:49.425Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:50.459Z] 2:46:50 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:50.460Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:50.460Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:50.460Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:50.461Z] 287|              <div class="car-header">
+[2026-03-29T18:46:50.461Z] |              ^
+[2026-03-29T18:46:50.461Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:50.461Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:50.462Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:50.462Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:50.462Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:50.463Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:50.463Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:50.463Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:50.463Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:50.464Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:50.464Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:50.464Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:50.465Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:51.555Z] 2:46:51 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:51.555Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:51.556Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:51.556Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:51.557Z] 287|              <div class="car-header">
+[2026-03-29T18:46:51.557Z] |              ^
+[2026-03-29T18:46:51.557Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:51.557Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:51.558Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:51.558Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:51.558Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:51.559Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:51.559Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:51.559Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:51.560Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:51.560Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:51.560Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:51.561Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:51.561Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:52.623Z] 2:46:52 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:52.624Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:52.625Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:52.625Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:52.625Z] 287|              <div class="car-header">
+[2026-03-29T18:46:52.626Z] |              ^
+[2026-03-29T18:46:52.626Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:52.627Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:52.627Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:52.627Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:52.628Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:52.628Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:52.629Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:52.629Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:52.629Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:52.630Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:52.630Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:52.631Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:52.631Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:52.964Z] 2:46:52 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:52.965Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:52.966Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:52.966Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:52.966Z] 287|              <div class="car-header">
+[2026-03-29T18:46:52.967Z] |              ^
+[2026-03-29T18:46:52.967Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:52.967Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:52.968Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:52.968Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:52.968Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:52.969Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:52.969Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:52.969Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:52.970Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:52.970Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:52.970Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:52.971Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:52.971Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:53.184Z] 2:46:53 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:53.185Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:53.185Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:53.186Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:53.186Z] 287|              <div class="car-header">
+[2026-03-29T18:46:53.186Z] |              ^
+[2026-03-29T18:46:53.186Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:53.187Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:53.187Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:53.187Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:53.188Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:53.188Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:53.188Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:53.188Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:53.189Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:53.189Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:53.189Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:53.190Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:53.190Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:54.219Z] 2:46:54 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:54.220Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:54.220Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:54.221Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:54.221Z] 287|              <div class="car-header">
+[2026-03-29T18:46:54.221Z] |              ^
+[2026-03-29T18:46:54.222Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:54.222Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:54.222Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:54.222Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:54.223Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:54.224Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:54.224Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:54.224Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:54.225Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:54.225Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:54.226Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:54.226Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:54.227Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:55.315Z] 2:46:55 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:55.317Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:55.317Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:55.317Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:55.318Z] 287|              <div class="car-header">
+[2026-03-29T18:46:55.318Z] |              ^
+[2026-03-29T18:46:55.318Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:55.319Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:55.319Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:55.319Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:55.320Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:55.320Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:55.320Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:55.321Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:55.321Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:55.321Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:55.321Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:55.322Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:55.322Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:56.434Z] 2:46:56 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:56.435Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:56.435Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:56.435Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:56.436Z] 287|              <div class="car-header">
+[2026-03-29T18:46:56.436Z] |              ^
+[2026-03-29T18:46:56.436Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:56.437Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:56.437Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:56.438Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:56.438Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:56.438Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:56.438Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:56.439Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:56.439Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:56.439Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:56.440Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:56.440Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:56.440Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:56.471Z] 2:46:56 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:56.472Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:56.473Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:56.473Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:56.474Z] 287|              <div class="car-header">
+[2026-03-29T18:46:56.474Z] |              ^
+[2026-03-29T18:46:56.474Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:56.475Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:56.475Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:56.475Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:56.476Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:56.476Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:56.476Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:56.477Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:56.477Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:56.478Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:56.478Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:56.478Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:56.479Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:56.784Z] 2:46:56 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:56.785Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:56.786Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:56.786Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:56.786Z] 287|              <div class="car-header">
+[2026-03-29T18:46:56.787Z] |              ^
+[2026-03-29T18:46:56.787Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:56.787Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:56.787Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:56.788Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:56.788Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:56.788Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:56.789Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:56.789Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:56.789Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:56.789Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:56.790Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:56.790Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:56.790Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:57.724Z] 2:46:57 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:57.725Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:57.726Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:57.726Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:57.727Z] 287|              <div class="car-header">
+[2026-03-29T18:46:57.727Z] |              ^
+[2026-03-29T18:46:57.727Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:57.728Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:57.728Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:57.729Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:57.729Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:57.730Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:57.730Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:57.731Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:57.731Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:57.732Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:57.732Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:57.733Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:57.733Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:58.728Z] 2:46:58 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:58.729Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:58.729Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:58.729Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:58.730Z] 287|              <div class="car-header">
+[2026-03-29T18:46:58.730Z] |              ^
+[2026-03-29T18:46:58.730Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:58.730Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:58.731Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:58.731Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:58.731Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:58.732Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:58.732Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:58.732Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:58.733Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:58.733Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:58.733Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:58.733Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:58.734Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:46:59.816Z] 2:46:59 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:46:59.817Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:59.818Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:46:59.818Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:46:59.818Z] 287|              <div class="car-header">
+[2026-03-29T18:46:59.818Z] |              ^
+[2026-03-29T18:46:59.819Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:46:59.819Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:46:59.820Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:46:59.820Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:46:59.820Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:46:59.821Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:46:59.821Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:46:59.821Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:46:59.822Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:46:59.822Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:46:59.822Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:46:59.822Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:46:59.823Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:47:00.385Z] 2:47:00 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:47:00.386Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:47:00.386Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:47:00.387Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:47:00.387Z] 287|              <div class="car-header">
+[2026-03-29T18:47:00.387Z] |              ^
+[2026-03-29T18:47:00.387Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:47:00.388Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:47:00.388Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:47:00.388Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:47:00.389Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:47:00.389Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:47:00.389Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:47:00.389Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:47:00.390Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:47:00.390Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:47:00.390Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:47:00.391Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:47:00.391Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:47:00.728Z] 2:47:00 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:47:00.729Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:47:00.730Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:47:00.730Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:47:00.730Z] 287|              <div class="car-header">
+[2026-03-29T18:47:00.730Z] |              ^
+[2026-03-29T18:47:00.731Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:47:00.731Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:47:00.731Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:47:00.732Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:47:00.733Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:47:00.733Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:47:00.733Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:47:00.734Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:47:00.734Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:47:00.734Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:47:00.734Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:47:00.735Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:47:00.735Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:47:01.779Z] 2:47:01 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:47:01.780Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:47:01.781Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:47:01.781Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:47:01.781Z] 287|              <div class="car-header">
+[2026-03-29T18:47:01.782Z] |              ^
+[2026-03-29T18:47:01.782Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:47:01.782Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:47:01.782Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:47:01.783Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:47:01.783Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:47:01.783Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:47:01.784Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:47:01.784Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:47:01.784Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:47:01.784Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:47:01.785Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:47:01.785Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:47:01.785Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:47:02.816Z] 2:47:02 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:47:02.817Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:47:02.817Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:47:02.818Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:47:02.818Z] 287|              <div class="car-header">
+[2026-03-29T18:47:02.819Z] |              ^
+[2026-03-29T18:47:02.819Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:47:02.820Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:47:02.820Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:47:02.820Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:47:02.821Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:47:02.821Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:47:02.822Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:47:02.822Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:47:02.823Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:47:02.823Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:47:02.824Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:47:02.824Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:47:02.825Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:47:03.941Z] 2:47:03 PM [vite] Internal server error: Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+[2026-03-29T18:47:03.942Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:47:03.942Z] 285|        <div class="car-card" data-category="e-series">
+[2026-03-29T18:47:03.942Z] 286|            <div class="car-img-wrap"
+[2026-03-29T18:47:03.943Z] 287|              <div class="car-header">
+[2026-03-29T18:47:03.943Z] |              ^
+[2026-03-29T18:47:03.943Z] 288|                <h3 class="car-model">BMW E39 530D</h3>
+[2026-03-29T18:47:03.943Z] 289|                <span class="car-series">5-серия</span>
+[2026-03-29T18:47:03.944Z] at /home/ubuntu/mtexparts/index.html:287:13
+[2026-03-29T18:47:03.944Z] at handleParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37524:11)
+[2026-03-29T18:47:03.944Z] at Parser.onParseError (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-827b23df.js:37450:13)
+[2026-03-29T18:47:03.945Z] at Tokenizer._err (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1125:89)
+[2026-03-29T18:47:03.945Z] at Tokenizer._stateAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2517:22)
+[2026-03-29T18:47:03.945Z] at Tokenizer._stateBeforeAttributeName (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:2489:22)
+[2026-03-29T18:47:03.945Z] at Tokenizer._callState (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1608:22)
+[2026-03-29T18:47:03.946Z] at Tokenizer._runParsingLoop (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1149:22)
+[2026-03-29T18:47:03.946Z] at Tokenizer.write (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:1174:14)
+[2026-03-29T18:47:03.946Z] at Parser.parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:4856:26)
+[2026-03-29T18:47:03.947Z] at parse (file:///home/ubuntu/mtexparts/node_modules/.pnpm/vite@4.5.14/node_modules/vite/dist/node/chunks/dep-f0c7dae0.js:7927:19)
+[2026-03-29T18:47:03.978Z] 2:47:03 PM [vite] page reload index.html
+[2026-03-29T18:47:12.287Z] 2:47:12 PM [vite] page reload index.html
+[2026-03-29T18:47:30.921Z] 2:47:30 PM [vite] page reload index.html
+[2026-03-29T18:47:43.115Z] 2:47:43 PM [vite] page reload index.html
+[2026-03-29T18:47:55.476Z] 2:47:55 PM [vite] page reload index.html
+[2026-03-29T18:47:59.093Z] Dev server process group stopped
+[2026-03-29T18:47:59.127Z] ELIFECYCLE  Command failed.
+[2026-03-29T18:47:59.153Z] Dev server exited with code -15
+[2026-03-29T18:48:02.167Z] Starting dev server with command: pnpm run dev
+[2026-03-29T18:48:02.752Z] 
+[2026-03-29T18:48:02.752Z] > mtexparts@1.0.0 dev /home/ubuntu/mtexparts
+[2026-03-29T18:48:02.753Z] > vite
+[2026-03-29T18:48:02.753Z] 
+[2026-03-29T18:48:03.677Z] 
+[2026-03-29T18:48:03.681Z] VITE v4.5.14  ready in 864 ms
+[2026-03-29T18:48:03.682Z] 
+[2026-03-29T18:48:03.683Z] ➜  Local:   http://localhost:3000/
+[2026-03-29T18:48:03.685Z] ➜  Network: http://169.254.0.21:3000/

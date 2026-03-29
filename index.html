@@ -265,8 +265,24 @@
         <button class="filter-btn" data-filter="7-series">7-серия</button>
       </div>
 
-      <div class="cars-grid" id="carsGrid">
+      <!-- Lightbox Modal -->
+      <div id="lightboxModal" class="lightbox-modal" style="display: none;">
+        <div class="lightbox-content">
+          <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+          <button class="lightbox-prev" onclick="prevImage()">❮</button>
+          <img id="lightboxImage" src="" alt="Car Image" class="lightbox-image" />
+          <button class="lightbox-next" onclick="nextImage()">❯</button>
+          <div class="lightbox-counter"><span id="imageCounter">1</span> / <span id="imageTotalCount">1</span></div>
+          <div class="lightbox-thumbnails" id="lightboxThumbnails"></div>
+        </div>
+      </div>
 
+      <div class="cars-grid" id="carsGrid">
+        <!-- Cars will be loaded dynamically from JSON -->
+      </div>
+
+      <!-- Placeholder for removed static cards -->
+      <div style="display: none;">
         <div class="car-card" data-category="7-series">
           <div class="car-img-wrap">
             <img src="images/cars/e65_740d_front.webp" alt="BMW E65 740D" loading="lazy" />
@@ -474,7 +490,6 @@
             </a>
           </div>
         </div>
-
       </div>
 
       <div class="gallery-cta">
@@ -928,11 +943,13 @@
   </footer>
 
   <link rel="stylesheet" href="src/styles/map.css">
+  <link rel="stylesheet" href="src/styles/gallery.css">
   <script src="src/script.js"></script>
   <script src="src/login.js"></script>
   <script src="src/admin.js"></script>
   <script src="src/admin-cars.js"></script>
   <script src="src/testimonials.js"></script>
   <script src="src/map.js"></script>
+  <script src="src/gallery.js"></script>
 </body>
 </html>

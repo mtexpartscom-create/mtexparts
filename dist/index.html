@@ -8,9 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
   
-  <link rel="stylesheet" href="/assets/index-2fa4e018.css">
+  
+  
+  <link rel="stylesheet" href="/assets/index-9612d0e0.css">
 </head>
 <body>
 
@@ -33,7 +34,7 @@
         <li><a href="#gallery">Наличност</a></li>
         <li><a href="#about">За нас</a></li>
         <li><a href="#contact" class="nav-cta">Контакт</a></li>
-        <li><a href="#admin" class="nav-admin">Админ</a></li>
+        <li><a href="#login" class="nav-admin" onclick="showLoginModal(event)">Вход</a></li>
       </ul>
     </div>
   </nav>
@@ -622,6 +623,26 @@
     </div>
   </section>
 
+  <!-- ========== LOGIN MODAL ========== -->
+  <div class="login-modal" id="loginModal" style="display:none;">
+    <div class="login-modal-content">
+      <button class="login-modal-close" onclick="closeLoginModal()">&times;</button>
+      <h2>Вход в Админ Панел</h2>
+      <form onsubmit="handleLogin(event)">
+        <div class="form-group">
+          <label>Потребителско име</label>
+          <input type="text" id="username" placeholder="Въведи потребителско име" required>
+        </div>
+        <div class="form-group">
+          <label>Парола</label>
+          <input type="password" id="password" placeholder="Въведи парола" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Влез</button>
+      </form>
+      <p id="loginError" class="login-error" style="display:none;">Грешно потребителско име или парола</p>
+    </div>
+  </div>
+
   <!-- ========== ADMIN SECTION ========== -->
   <section class="admin-section" id="admin" style="display:none;">
     <div class="admin-container">
@@ -685,5 +706,6 @@
 
   <script src="src/script.js"></script>
   <script src="src/admin.js"></script>
+  <script src="src/login.js"></script>
 </body>
 </html>

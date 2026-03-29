@@ -26,3 +26,37 @@
 [2026-03-27T21:56:05.683Z] 5:56:05 PM [vite] hmr update /src/styles/admin.css?direct
 [2026-03-27T21:56:05.684Z] 5:56:05 PM [vite] hmr update /src/styles/main.css, /src/styles/main.css?direct
 [2026-03-27T21:56:05.703Z] 5:56:05 PM [vite] server restarted.
+[2026-03-27T22:00:24.771Z] Dev server process group stopped
+[2026-03-27T22:00:24.792Z] ELIFECYCLE  Command failed.
+[2026-03-27T22:00:24.797Z] Dev server exited with code -15
+[2026-03-27T22:00:27.783Z] Starting dev server with command: pnpm run dev
+[2026-03-27T22:00:28.153Z] 
+[2026-03-27T22:00:28.154Z] > mtexparts@1.0.0 dev /home/ubuntu/mtexparts
+[2026-03-27T22:00:28.154Z] > vite
+[2026-03-27T22:00:28.154Z] 
+[2026-03-27T22:00:28.595Z] 
+[2026-03-27T22:00:28.595Z] VITE v4.5.14  ready in 396 ms
+[2026-03-27T22:00:28.596Z] 
+[2026-03-27T22:00:28.596Z] ➜  Local:   http://localhost:3000/
+[2026-03-27T22:00:28.597Z] ➜  Network: http://169.254.0.21:3000/
+[2026-03-27T22:00:47.193Z] 6:00:47 PM [vite] page reload index.html
+[2026-03-27T22:02:26.267Z] 6:02:26 PM [vite] vite.config.js changed, restarting server...
+[2026-03-27T22:02:26.302Z] 6:02:26 PM [vite] server restarted.
+[2026-03-27T22:02:30.206Z] Dev server process group stopped
+[2026-03-27T22:02:30.232Z] ELIFECYCLE  Command failed.
+[2026-03-27T22:02:30.244Z] Dev server exited with code -15
+[2026-03-27T22:02:33.220Z] Starting dev server with command: pnpm run dev
+[2026-03-27T22:02:33.622Z] 
+[2026-03-27T22:02:33.622Z] > mtexparts@1.0.0 dev /home/ubuntu/mtexparts
+[2026-03-27T22:02:33.623Z] > vite
+[2026-03-27T22:02:33.623Z] 
+[2026-03-27T22:02:34.089Z] 
+[2026-03-27T22:02:34.089Z] VITE v4.5.14  ready in 420 ms
+[2026-03-27T22:02:34.090Z] 
+[2026-03-27T22:02:34.090Z] ➜  Local:   http://localhost:3000/
+[2026-03-27T22:02:34.091Z] ➜  Network: http://169.254.0.21:3000/
+[2026-03-29T13:11:00.592Z] 9:11:00 AM [vite] page reload index.html
+[2026-03-29T13:11:10.206Z] 9:11:10 AM [vite] page reload index.html
+[2026-03-29T13:12:59.473Z] 9:12:59 AM [vite] page reload index.html
+[2026-03-29T13:13:11.402Z] 9:13:11 AM [vite] page reload index.html
+[2026-03-29T13:13:46.255Z] 9:13:46 AM [vite] page reload dist/index.html

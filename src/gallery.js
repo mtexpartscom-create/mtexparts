@@ -7,7 +7,7 @@ let carsData = [];
 // Load cars data from JSON
 async function loadCarsGallery() {
   try {
-    const response = await fetch('src/cars_gallery_data.json');
+    const response = await fetch('/src/cars_gallery_data.json');
     carsData = await response.json();
     renderCarsGrid();
     setupFilterButtons();

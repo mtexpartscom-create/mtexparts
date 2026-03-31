@@ -30,24 +30,10 @@ navLinks.querySelectorAll('a').forEach(link => {
 });
 
 // ---- Gallery filter ----
-const filterBtns = document.querySelectorAll('.filter-btn');
-const carCards = document.querySelectorAll('.car-card');
-
-filterBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    filterBtns.forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-
-    const filter = btn.dataset.filter;
-    carCards.forEach(card => {
-      if (filter === 'all' || card.dataset.category === filter) {
-        card.classList.remove('hidden');
-      } else {
-        card.classList.add('hidden');
-      }
-    });
-  });
-});
+// Filter buttons removed from gallery
+// const filterBtns = document.querySelectorAll('.filter-btn');
+// const carCards = document.querySelectorAll('.car-card');
+// Filtering functionality disabled
 
 // ---- Contact form handler with loading animation ----
 function handleSubmit(e) {

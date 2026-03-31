@@ -970,3 +970,18 @@
 [2026-03-31T19:45:44.497Z] 
 [2026-03-31T19:45:44.497Z] ➜  Local:   http://localhost:3000/
 [2026-03-31T19:45:44.498Z] ➜  Network: http://169.254.0.21:3000/
+[2026-03-31T20:01:51.738Z] 4:01:51 PM [vite] page reload index.html
+[2026-03-31T20:02:47.743Z] 4:02:47 PM [vite] page reload src/script.js
+[2026-03-31T20:02:51.504Z] Dev server process group stopped
+[2026-03-31T20:02:51.532Z] ELIFECYCLE  Command failed.
+[2026-03-31T20:02:51.546Z] Dev server exited with code -15
+[2026-03-31T20:02:54.517Z] Starting dev server with command: pnpm run dev
+[2026-03-31T20:02:54.935Z] 
+[2026-03-31T20:02:54.936Z] > mtexparts@1.0.0 dev /home/ubuntu/mtexparts
+[2026-03-31T20:02:54.936Z] > vite
+[2026-03-31T20:02:54.937Z] 
+[2026-03-31T20:02:55.388Z] 
+[2026-03-31T20:02:55.389Z] VITE v4.5.14  ready in 411 ms
+[2026-03-31T20:02:55.389Z] 
+[2026-03-31T20:02:55.389Z] ➜  Local:   http://localhost:3000/
+[2026-03-31T20:02:55.390Z] ➜  Network: http://169.254.0.21:3000/

@@ -12,10 +12,14 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(cors());
 app.use(express.json());
-// Serve static files from root directory
+
+// Serve static files from root directory (must be before catch-all route)
 app.use(express.static(__dirname));
 
-// Serve index.html for all routes
+// Explicitly serve static files from src directory
+app.use('/src', express.static(path.join(__dirname, 'src')));
+
+// Serve index.html for all other routes (SPA fallback)
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
